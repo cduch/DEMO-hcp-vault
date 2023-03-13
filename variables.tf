@@ -10,11 +10,6 @@ variable "hcp_client_secret" {
   sensitive   = true
 }
 
-variable "region" {
-  type    = string
-  default = "eu-central-1"
-}
-
 
 variable "organization" {
   type = string
