@@ -22,6 +22,6 @@ variable "organization" {
 }
 
 variable "hvnworkspace" {
-  type = "string"
+  type = string
   default = "HCP_HVN"
 }
